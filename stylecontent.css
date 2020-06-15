@@ -490,4 +490,5 @@ a:hover {
 .maintext1 {
   width: 500px;
   margin: 20px calc(50vw - 250px);
+  line-height: 150%;
 }
