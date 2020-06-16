@@ -406,3 +406,15 @@ body {
 #designby {
   padding-top: 5px; text-align: center;
 }
+
+#arrowup {
+  position: fixed;
+  right: 10px;
+  bottom: 0px;
+  opacity: 0.3;
+}
+
+#arrowup:hover {
+  opacity: 1;
+  width: 30px;
+}
