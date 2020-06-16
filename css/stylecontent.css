@@ -435,10 +435,10 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .contact-container {
-  width: 70vw;
+  width: 50vw;
   border-radius: 5px;
   background-color: gainsboro;
-  margin: 50px 15vw;
+  margin: 50px 25vw;
   padding: 20px;
 }
 
