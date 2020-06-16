@@ -461,12 +461,12 @@ input[type=submit]:hover {
   position: relative;
   width: 60%;
   top: 10px;
-  left: 20vw;
+  left: calc(50vw - 310px);
 }
 
 #img-news1 {
-  width: 60vw;
-  height: 57vh;
+  width: 600px;
+  height: 500px;
 }
 
 #news1-text {
