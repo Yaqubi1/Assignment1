@@ -372,7 +372,13 @@ body {
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 100px)/(1600 - 300)));
   opacity: 0.2;
   text-shadow: 3px 3px lightblue;
-  margin: 0;
+  width: 400px;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+#logotext:hover {
+  opacity: 0.7;
 }
 
 /* När en ny länk adderas måste height adderas med 20px */

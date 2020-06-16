@@ -416,3 +416,7 @@ li a:hover {
 #searchimg {
   float: right; height: 30px; margin-right: 0px;
 }
+
+#searchimg:hover {
+  background-color: #8bbdff;
+}
