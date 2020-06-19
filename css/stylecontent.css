@@ -475,6 +475,7 @@ input[type=submit]:hover {
 
 #img-news1 {
   width: 50vw;
+  min-width: 350px;
   max-width: 100%;
   height: auto;
 }
@@ -487,6 +488,13 @@ input[type=submit]:hover {
   background-color: rgba(54, 25, 25, 0.3);
 }
 
+.maintext1 {
+  min-width: 350px;
+  width: 50vw;
+  margin: 20px 25vw;
+  line-height: 150%;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -495,10 +503,4 @@ a {
 a:hover {
   color: rgb(217, 238, 255);
   background-color: rgba(54, 25, 25, 0.3);
-}
-
-.maintext1 {
-  width: 50vw;
-  margin: 20px 25vw;
-  line-height: 150%;
 }
