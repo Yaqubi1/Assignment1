@@ -449,7 +449,8 @@ input[type=submit]:hover {
 
 #article-om {
   width: 50vw;
-  margin: 20px 25vw;
+  margin: 0 25vw;
+  padding: 20px;
   line-height: 150%;
 }
 
@@ -461,6 +462,7 @@ input[type=submit]:hover {
 }
 
 .text-om {
+  min-width: 350px;
   margin: 20px 0;
   line-height: 150%;
 }
