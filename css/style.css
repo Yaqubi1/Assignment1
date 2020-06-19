@@ -381,6 +381,10 @@ body {
   opacity: 0.7;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* När en ny länk adderas måste height adderas med 20px */
 #iframenav {
   height: 90px;
