@@ -400,10 +400,10 @@ a {
   z-index: 0;
   position: relative;
   top: -65px;
-  height: 95vh;
+  min-height: 95vh;
   width: 100%;
   border: 0;
-  background-color: white;
+  background-color: white;  
 }
 
 /* När en ny länk adderas måste margin-top subtraheras med 20px */

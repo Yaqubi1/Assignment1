@@ -408,17 +408,18 @@ a:hover {
 
 /* Add a background color and some padding around the form */
 .contact-container {
-  width: 50vw;
-  min-width: 400px;
+  max-width: 50vw;
+  min-width: 320px;
   border-radius: 5px;
   background-color: gainsboro;
   margin: 50px auto;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 label {
   display: block;
-  margin: 10px 25px;
+  width: 80%;
+  margin: 10px 10%;
 }
 
 /* Style inputs with type="text" and textareas */
@@ -426,8 +427,8 @@ input[type=text],
 input[type=email],
 textarea {
   display: block;
-  margin: 0 auto 0 25px;
-  padding: 15px;
+  margin: 0 10%;
+  padding: 15px 10px;
   width: 80%;
 }
 
@@ -439,7 +440,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin: 10px auto 10px 25px;
+  margin: 10px 10%;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -448,10 +449,10 @@ input[type=submit]:hover {
 }
 
 #article-om {
-  width: 50vw;
-  margin: 0 25vw;
-  padding: 20px;
+  min-width: 320px;
+  max-width: 50vw;
   line-height: 150%;
+  margin: 0 auto;
 }
 
 #img-om {
@@ -470,16 +471,17 @@ input[type=submit]:hover {
 #div-news1 {
   position: relative;
   margin: 0;
-  width: 50vw;
+  min-width: 320px;
+  max-width: 50vw;
   top: 10px;
-  left: 25vw;
+  display: block;
+  margin: 10px auto;
 }
 
 #img-news1 {
-  width: 50vw;
-  min-width: 350px;
-  max-width: 100%;
   height: auto;
+  min-width: 320px;
+  max-width: 50vw;
 }
 
 #news1-text {
@@ -491,9 +493,9 @@ input[type=submit]:hover {
 }
 
 .maintext1 {
-  min-width: 350px;
-  width: 50vw;
-  margin: 20px 25vw;
+  min-width: 320px;
+  max-width: 50vw;
+  margin: 20px auto;
   line-height: 150%;
 }
 
