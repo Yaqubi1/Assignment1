@@ -359,6 +359,16 @@ body {
   width: 90%; margin: 20px auto 20px auto;
 }
 
+@media screen and (max-width: 380px) {
+  #structure {
+    width: 100%; margin: 0;
+  }
+}
+@media screen and (max-width: 680px) {
+}
+@media screen and (max-width: 1024px) {
+}
+
 #logoplace {
   height: 10vh;
   min-height: 70px;
