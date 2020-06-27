@@ -244,8 +244,8 @@ label {
 }
 
 /* Style inputs with type="text" and textareas */
-#contactform input[type=text],
-#contactforminput[type=email],
+#contactform input[type="text"],
+#contactform input[type="email"],
 #contactform textarea {
   display: block;
   margin: 0 10%;
