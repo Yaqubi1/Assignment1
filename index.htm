@@ -11,17 +11,66 @@
 </head>
 
 <body>
-<!-- Nedan är all design på hemsidan-->
   <div id="structure">
     <header id="logoplace">
-      <a href="main.htm" target="contentiframe"><h1 id="logotext">Jacob Design</h1></a>
+      <a href="main.htm"><h1 id="logotext">Jacob Design</h1></a>
     </header>
+
+  <!-- Nedan är koden för menyn -->
+  <nav>
+    <div id="menuplace">
+      <ul>
+      <div id="dropdownHem">
+      <li><a href="main.htm" class="menulink" id="menuHem">Hem</a></li>
+      </div>
+      
+      <div id="dropdownHem">
+        <li><a href="om.htm" class="menulink">Om oss</a></li>
+        <div id="dropdownHemcontent">
+          <li><a href="lankar.htm" class="menulink">Länkar</a></li>
+          </div>
+      </div>
     
-    <nav><iframe src="nav.htm" id="iframenav" name="iframe_nav"></iframe></nav>
-    
+      <div id="dropdownHem">
+        <li><a href="kontakt.htm" class="menulink">Kontakta oss</a></li>
+      </div>
+      </ul>
+        
+      <div class="search-container">
+        <form action="action_page.php">
+          <input type="text" placeholder="Sök" name="search">
+          <a href="#"><img src="img/search.png" id="searchimg"></a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Nedan är koden för main -->
+
     <main>
-      <iframe src="main.htm" id="contentiframe" name="contentiframe"></iframe>
+      <div id="div-news1"> 
+        <img src="img/news1.jpg" alt="Jamkaran-moskén" id="img-news1">
+        <div id="news1-text"><a href="" id="img-link">Jamkaran-moskén i Qom, Iran.</a></div>
+      </div>
+      <article>
+        <p class="maintext1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo doloremque aut, provident dolorem unde eligendi et corrupti iusto repellat dolores ullam nam enim corporis omnis non consectetur. Facilis, deserunt.</p>
+        <p class="maintext1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo doloremque aut, provident dolorem unde eligendi et corrupti iusto repellat dolores ullam nam enim corporis omnis non consectetur. Facilis, deserunt.</p>
+        <p class="maintext1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo doloremque aut, provident dolorem unde eligendi et corrupti iusto repellat dolores ullam nam enim corporis omnis non consectetur. Facilis, deserunt.</p>
+        <p class="maintext1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo doloremque aut, provident dolorem unde eligendi et corrupti iusto repellat dolores ullam nam enim corporis omnis non consectetur. Facilis, deserunt.</p>
+        <p class="maintext1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo doloremque aut, provident dolorem unde eligendi et corrupti iusto repellat dolores ullam nam enim corporis omnis non consectetur. Facilis, deserunt.</p>
+        <p class="maintext1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo doloremque aut, provident dolorem unde eligendi et corrupti iusto repellat dolores ullam nam enim corporis omnis non consectetur. Facilis, deserunt.</p>
+        <p class="maintext1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo doloremque aut, provident dolorem unde eligendi et corrupti iusto repellat dolores ullam nam enim corporis omnis non consectetur. Facilis, deserunt.</p>
+        <p class="maintext1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo doloremque aut, provident dolorem unde eligendi et corrupti iusto repellat dolores ullam nam enim corporis omnis non consectetur. Facilis, deserunt.</p>
+        <p class="maintext1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo doloremque aut, provident dolorem unde eligendi et corrupti iusto repellat dolores ullam nam enim corporis omnis non consectetur. Facilis, deserunt.</p>
+        <p class="maintext1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo doloremque aut, provident dolorem unde eligendi et corrupti iusto repellat dolores ullam nam enim corporis omnis non consectetur. Facilis, deserunt.</p>
+        <p class="maintext1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo doloremque aut, provident dolorem unde eligendi et corrupti iusto repellat dolores ullam nam enim corporis omnis non consectetur. Facilis, deserunt.</p>
+        <p class="maintext1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo doloremque aut, provident dolorem unde eligendi et corrupti iusto repellat dolores ullam nam enim corporis omnis non consectetur. Facilis, deserunt.</p>
+        <p class="maintext1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo doloremque aut, provident dolorem unde eligendi et corrupti iusto repellat dolores ullam nam enim corporis omnis non consectetur. Facilis, deserunt.</p>
+      </article>
     </main>
+
+    <!-- Nedan är koden för footer -->
 
     <footer id="footer1">
     <p id="designby"><small>Design by Jacob Design</small></p>
