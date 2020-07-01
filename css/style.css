@@ -110,6 +110,7 @@ li a:hover {
 #searchimg {
   float: right;
   height: 30px; 
+  margin-right: -5px;
 }
 
 #searchimg:hover {
@@ -337,7 +338,7 @@ input[type=submit]:hover {
 
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 804px) {
   #menuplace {
     height: 68px
   }
