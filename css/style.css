@@ -59,10 +59,11 @@ a {
 }
 
 #dropdownHemcontent {
-  background-color: #62a6ff;
+  background-color: #3e6faf;
   margin-top: 0px;
   display: none;
   position: absolute;
+  min-width: 200px;
 }
   
 #dropdownHem:hover #dropdownHemcontent {
@@ -338,11 +339,17 @@ input[type=submit]:hover {
 
 }
 
-@media screen and (max-width: 804px) {
+@media screen and (max-width: 1004px) {
   #menuplace {
     height: 68px
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 456px) {
+  #menuplace {
+    height: 102px
+  }
+  .search-container {
+    margin-top: 34px; 
+  }
 }
