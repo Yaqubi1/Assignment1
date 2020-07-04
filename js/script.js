@@ -1,3 +1,7 @@
-function myFunction1() {
-    document.getElementById("body-main").style.background = 'lightblue';
+function changeBgColor() {
+    if (document.getElementById("footer1").style.background != "gray") {
+      document.getElementById("footer1").style.background = "gray";
+    } else {
+      document.getElementById("footer1").style.background = "gainsboro";
+    }
   }
